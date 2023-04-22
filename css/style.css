@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(22,22,22);
+}
+
+
+
+/* BARRA DE NAVEGACION */
+
+.logo-ana {
+    max-width: 200px ;
+}
+
+.collapse {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 14px black;
+    border-radius: 8px;
+}
+
+.nav-item {
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+[aria-current] {
+    color: white;
+}
+
+/* ----------  INDEX  ---------- */
+
+/* HEADER */
+
+.index-header {
+    background-image: url(../img/0ana-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25px;
+    background-size: cover;
+    height: 650px;
+    /* margin-bottom: 15px; */
+}
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 70%;
+    height:fit-content;
+    margin-top: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 22px black;
+}
+
+
+/* MAIN */
+
+.index-iframe h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    padding: 5px 10px;
+    box-shadow: 0 0 14px black;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.index-iframe .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.index-iframe iframe {
+    width: 85%;
+}
+@media screen and (max-width: 767px) {
+    .index-iframe iframe {
+        min-height: 220px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .index-iframe iframe {
+        min-height: 380px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .index-iframe iframe {
+        min-height: 500px;
+    }
+}
+ 
+
+
+hr {
+    margin: 0 auto;
+    width: 94%;
+    border: 3px dashed black;
+}
+
+
+.index-redes {
+    margin-top: 15px;
+}
+
+.index-redes h2 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+    margin: 0 0 25px 0;
+    text-align: start;
+}
+
+.index-redes .bi {
+    font-size: 8vw;
+    text-decoration: none;   
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.index-redes i {
+    display: inline-block;
+    padding: 0 19px;
+    border-radius: 47%;
+    
+}
+.index-redes i:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+    box-shadow: 0 0 10px white;
+}
+.index-redes .ig-i:hover {color: rgb(130,58,180);}
+.index-redes .tw-i:hover {color: rgb(29,161,242);}
+.index-redes .fb-i:hover {color: rgb(59,89,152);}
+.index-redes .spo-i:hover {color: rgb(129,183,26);}
+.index-redes .yt-i:hover {color: rgb(196,48,43);}
+
+
+
+
