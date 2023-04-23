@@ -191,3 +191,33 @@ hr {
 
 
 
+.index-btn {
+    margin-top: 5px;
+}
+
+.index-btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 3.2vw;
+    font-family: 'Bebas Neue', cursive;
+    margin: 15px 0;
+    padding: 3px 14px 0 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.index-btn a:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 10px white;
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 575px) {
+    .index-btn a {
+        font-size: 6vw;
+    }
+}
+
+
+
