@@ -3,8 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(22,22,22);
+}
+
+hr {
+    margin: 0 auto;
+    width: 94%;
+    border: 3px dashed black;
 }
 
 
@@ -46,6 +53,7 @@ body {
     background-position-y: 25px;
     background-size: cover;
     height: 650px;
+    margin-bottom: 20px;
     /* margin-bottom: 15px; */
 }
 
@@ -59,11 +67,11 @@ body {
     justify-content: center;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 5px;
     width: 70%;
     height:fit-content;
-    margin-top: 5rem;
+    margin-top: 3rem;
     border-radius: 5px;
     box-shadow: 0 0 22px black;
 }
@@ -79,7 +87,7 @@ body {
     padding: 5px 10px;
     box-shadow: 0 0 14px black;
     border-radius: 15px;
-    width: 50%;
+    width: 60%;
 }
 
 .index-iframe .container {
@@ -107,21 +115,15 @@ body {
         min-height: 500px;
     }
 }
- 
 
 
-hr {
-    margin: 0 auto;
-    width: 94%;
-    border: 3px dashed black;
-}
 
 
 .index-redes {
     margin-top: 15px;
 }
 
-.index-redes h2 {
+.index-redes h3 {
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 4vw;
@@ -152,6 +154,18 @@ hr {
 .index-redes .fb-i:hover {color: rgb(59,89,152);}
 .index-redes .spo-i:hover {color: rgb(129,183,26);}
 .index-redes .yt-i:hover {color: rgb(196,48,43);}
+
+@media screen and (max-width: 575px) {
+    .index-redes h3 {
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .index-redes .bi {
+        margin: 10px 0;
+        font-size: 15vw;
+    }
+}
 
 
 
