@@ -462,6 +462,43 @@ footer .yt-i {color: rgb(196,48,43);}
 
 
 
+/* ---------- Galeria ---------- */
+
+.galeria-main h1 {
+    text-align: center;
+    font-size: 5.5vw;
+    color: white;
+    box-shadow: 0 4px white;
+    border-radius: 15px;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    padding: 6px 0;
+}
+
+.galeria-evento1-cont {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 14px black;
+    border-radius: 15px;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+.galeria-evento1-p {
+    text-align: center;
+    color: white;
+    font-size: 4.8vw;
+}
+
+.galeria-evento1-img img {
+    width: 100%;
+    margin: 5px 10px; 
+    border-radius: 10px;
+    box-shadow: 0 0 13px black;
+}
+
+
+
 
 
 
