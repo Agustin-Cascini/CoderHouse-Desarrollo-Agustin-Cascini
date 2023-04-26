@@ -274,11 +274,13 @@ footer .yt-i {color: rgb(196,48,43);}
     height: 9vw;
 }
 
-.ana-titulo h1 {
+.ana-titulo h1 {   
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 6vw;
+    box-shadow: 0 4px white;
+    border-radius: 15px;
 }
 
 .ana-contenedor img {
@@ -465,6 +467,7 @@ footer .yt-i {color: rgb(196,48,43);}
 /* ---------- Galeria ---------- */
 
 .galeria-main h1 {
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 5.5vw;
     color: white;
@@ -564,6 +567,45 @@ footer .yt-i {color: rgb(196,48,43);}
 
 
 
+/* ---------- Contacto ---------- */
+
+.contacto-titulo {
+    margin-top: 25px;
+    padding-bottom: 8px;
+    box-shadow: 0 4px white;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.contacto-redes-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contacto-redes-cont .bi {
+    color: black;
+    font-size: 7vw;
+}
+
+
+@media screen and (max-width: 767px ) {
+    .contacto-redes-cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto-redes-cont .bi {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
 
 
 
