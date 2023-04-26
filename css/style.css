@@ -500,6 +500,73 @@ footer .yt-i {color: rgb(196,48,43);}
 
 
 
+/* ---------- Calendario ---------- */
+
+.calendario-main-cont {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.calendario-titulo { 
+    /* padding: 5px; */
+    margin-top: 25px;
+    box-shadow: 0 4px white;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.calendario-evento-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 14px black;
+    border-radius: 15px;
+}
+
+.calendario-evento-cont h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 0, 0);
+    box-shadow: 0 0 8px black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+}
+.calendario-evento-cont a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+}
+.calendario-evento-cont img {
+    width: 50%;
+}
+
+.calendario-redes-cont {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 15px ;
+    color: black;
+    font-size: 4vw;
+    border: 5px inset black;
+}
+
+.calendario-redes-cont a {
+    color: black;
+    font-size: 5vw;
+}
+
+
+
+
+
+
 
 
 
