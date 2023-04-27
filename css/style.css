@@ -574,9 +574,10 @@ footer .yt-i {color: rgb(196,48,43);}
     padding-bottom: 8px;
     box-shadow: 0 4px white;
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
     border-radius: 15px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .contacto-redes-cont {
@@ -586,9 +587,16 @@ footer .yt-i {color: rgb(196,48,43);}
     margin-top: 50px;
 }
 
+.contacto-redes-cont p {
+    color: rgb(180, 180, 180);
+    font-family: Helvetica, sans-serif;
+    font-size: 1.3vw;
+}
+
 .contacto-redes-cont .bi {
     color: black;
-    font-size: 7vw;
+    font-size: 6.5vw;
+    margin: 5px;
 }
 
 
@@ -604,9 +612,13 @@ footer .yt-i {color: rgb(196,48,43);}
     .contacto-redes-cont .bi {
         text-align: center;
         margin-top: 30px;
+        font-size: 8vw;
     }
 }
 
+.contacto-email-num-cont input {
+    width: 48%;
+}
 
 
 
