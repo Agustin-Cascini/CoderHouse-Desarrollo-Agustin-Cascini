@@ -1,0 +1,27 @@
+.logo-ana {
+    max-width: 200px ;
+}
+
+.collapse {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 14px black;
+    border-radius: 8px;
+
+    .nav-item {
+        font-size: 1.6rem;
+        font-family: $font;
+        
+        .nav-link:hover {
+            color: red;
+        }
+    }
+}
+
+[aria-current] {
+    color: $area-current;
+    scale: 1.14;
+}
+
+
+
