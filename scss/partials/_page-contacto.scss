@@ -1,0 +1,82 @@
+.contacto-main {
+
+    .contacto-titulo {
+        margin-top: 25px;
+        padding-bottom: 8px;
+        box-shadow: 0 4px white;
+        color: white;
+        font-size: 6vw;
+        text-align: center;
+        border-radius: 15px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .contacto-redes-cont {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+
+        p {
+            color: rgb(180, 180, 180);
+            font-family: Helvetica, sans-serif;
+            font-size: 1.3vw;
+        }
+
+        .bi {
+            color: black;
+            font-size: 6.5vw;
+            margin: 5px;
+            transition: all 0.4s;
+        }
+
+        .ig-i:hover {color: rgb(130,58,180);}
+        .tw-i:hover {color: rgb(29,161,242);}
+        .fb-i:hover {color: rgb(59,89,152);}
+        .spo-i:hover {color: rgb(129,183,26);}
+        .yt-i:hover {color: rgb(196,48,43);}
+
+        i {
+            display: inline-block;
+            padding: 0 19px;
+            border-radius: 47%;
+            transition: all 0.3s;
+        }
+        i:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 10px white;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 767px ) {
+        .contacto-redes-cont {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .contacto-redes-cont .bi {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 8vw;
+        }
+
+        .contacto-yt-cont {
+            grid-column: 1 / 3;
+        } 
+    }
+}
+
+.contacto-form-cont {
+     
+    .contacto-email-num-cont {
+        
+        input {
+            width: 48%;
+        }
+    }
+}
