@@ -104,11 +104,11 @@
     }
 }
 
-.index-redes .ig-i:hover {color: rgb(130,58,180);}
-.index-redes .tw-i:hover {color: rgb(29,161,242);}
-.index-redes .fb-i:hover {color: rgb(59,89,152);}
-.index-redes .spo-i:hover {color: rgb(129,183,26);}
-.index-redes .yt-i:hover {color: rgb(196,48,43);}
+.index-redes .ig-i:hover {color: map-get($colores, ig);}
+.index-redes .tw-i:hover {color: map-get($colores, tw);}
+.index-redes .fb-i:hover {color: map-get($colores, fb);}
+.index-redes .spo-i:hover {color:map-get($colores, spo);}
+.index-redes .yt-i:hover {color:map-get($colores, yt);}
 
 @media screen and (max-width: 575px) {
     .index-redes h3 {
@@ -154,21 +154,11 @@
     margin-bottom: 10px;
 
     a {
-        text-decoration: none;
-        color: black;
-        font-size: 3.2vw;
-        font-family: 'Bebas Neue', cursive;
-        margin: 15px 0;
-        padding: 3px 14px 0 14px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px black;
-        transition: all 0.5s;
+        @include btn-ana;
     }
     
     a:hover {
-        box-shadow: 0 0 10px white;
-        background-color: red;
-        color: white;
+        @include btn-ana-hover;
     }
 }
 

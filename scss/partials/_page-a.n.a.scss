@@ -46,6 +46,33 @@
 
     // Aca empiezan los div del grid
 
+     // Esta clase se uso para las redes de los 4 integrantes.
+     .caja-r {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a {
+            color: black;
+            font-size: 2.6rem;
+
+            .ig-i {
+                transition: all 0.4s;
+            }
+            .ig-i:hover {color: map-get($colores, ig);}
+            .tw-i {
+                transition: all 0.4s;
+            }
+            .tw-i:hover {color: map-get($colores, tw);}
+            .fb-i {
+                transition: all 0.4s;
+            }
+            .fb-i:hover {color: map-get($colores, fb);}
+        }
+       
+    }
+
     // Nico
     .caja2 {
         display: grid;
@@ -68,7 +95,8 @@
         }
 
         .datos-nico {
-            text-align: center;
+            @extend .nombre-nico;
+            font-size: 1.3rem;
         }
     }
 
@@ -79,34 +107,6 @@
         grid-row: 2 / 3;
         justify-content: center;
         align-items: center;
-    }
-
-    // Nico Redes
-    // Esta clase se uso para las redes de los 4 integrantes.
-    .caja-r {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-
-        a {
-            color: black;
-            font-size: 2.6rem;
-
-            .ig-i {
-                transition: all 0.4s;
-            }
-            .ig-i:hover {color: rgb(130,58,180);}
-            .tw-i {
-                transition: all 0.4s;
-            }
-            .tw-i:hover {color: rgb(29,161,242);}
-            .fb-i {
-                transition: all 0.4s;
-            }
-            .fb-i:hover {color: rgb(59,89,152);}
-        }
-       
     }
 
 
@@ -124,16 +124,17 @@
 
         .nombre-arhuro {
             text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            color: white;
 
             h2 {
                 font-size: 4rem;
-                font-family: 'Bebas Neue', cursive;
-                color: white;
             }
         }
 
         .datos-arhuro {
-            text-align: center;
+            @extend .nombre-arhuro ;
+            font-size: 1.3rem;
         }
     }
 
@@ -161,16 +162,17 @@
 
         .nombre-amis {
             text-align: center;
+            font-family: 'Bebas Neue', cursive;
+                color: white;
 
             h2 {
-                font-size: 4rem;
-                font-family: 'Bebas Neue', cursive;
-                color: white;
+                font-size: 4rem;                
             }
         }
 
         .datos-amis {
-            text-align: center;
+            @extend .nombre-amis;
+            font-size: 1.3rem;
         }
     }
 
@@ -198,16 +200,17 @@
 
         .nombre-suga {
             text-align: center;
+            font-family: 'Bebas Neue', cursive;
+                color: white;
 
             h2 {
-                font-size: 4rem;
-                font-family: 'Bebas Neue', cursive;
-                color: white;
+                font-size: 4rem;               
             }
         }
 
         .datos-suga {
-            text-align: center;
+            @extend .nombre-suga;
+            font-size: 1.3rem;
         }
     }
 

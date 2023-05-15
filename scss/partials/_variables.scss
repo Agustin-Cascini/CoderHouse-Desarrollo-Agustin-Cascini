@@ -4,6 +4,8 @@ $font: 'Bebas Neue', cursive;
 $font-footer: Arial, Helvetica, sans-serif;
 
 
+
+
 // Colores -->
 
 $area-current: white;
@@ -13,4 +15,28 @@ $colores: (
     fb: rgb(59,89,152),
     spo: rgb(129,183,26),
     yt: rgb(196,48,43),
-)
+    map: rgb(0, 140, 0),
+);
+
+
+
+
+//MIXIN 
+
+@mixin btn-ana {
+    text-decoration: none;
+    color: black;
+    font-size: 3.2vw;
+    font-family: 'Bebas Neue', cursive;
+    margin: 15px 0;
+    padding: 3px 14px 0 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+}
+
+@mixin btn-ana-hover {
+    box-shadow: 0 0 10px white;
+    background-color: red;
+    color: white;
+}

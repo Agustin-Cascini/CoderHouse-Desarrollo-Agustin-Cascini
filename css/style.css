@@ -277,34 +277,6 @@ footer .footer-btn:hover {
   justify-content: center;
   align-items: center;
 }
-.ana-contenedor .caja2 {
-  display: grid;
-  grid-column: 1/3;
-  grid-row: 2/3;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  box-shadow: 0 0 5px black;
-  border-radius: 15px;
-}
-.ana-contenedor .caja2 .nombre-nico {
-  text-align: center;
-  font-family: "Bebas Neue", cursive;
-  color: white;
-}
-.ana-contenedor .caja2 .nombre-nico h2 {
-  font-size: 4rem;
-}
-.ana-contenedor .caja2 .datos-nico {
-  text-align: center;
-}
-.ana-contenedor .caja3 {
-  display: grid;
-  grid-column: 3/5;
-  grid-row: 2/3;
-  justify-content: center;
-  align-items: center;
-}
 .ana-contenedor .caja-r {
   display: flex;
   flex-direction: column;
@@ -333,6 +305,34 @@ footer .footer-btn:hover {
 .ana-contenedor .caja-r a .fb-i:hover {
   color: rgb(59, 89, 152);
 }
+.ana-contenedor .caja2 {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 0 0 5px black;
+  border-radius: 15px;
+}
+.ana-contenedor .caja2 .nombre-nico, .ana-contenedor .caja2 .datos-nico {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+.ana-contenedor .caja2 .nombre-nico h2, .ana-contenedor .caja2 .datos-nico h2 {
+  font-size: 4rem;
+}
+.ana-contenedor .caja2 .datos-nico {
+  font-size: 1.3rem;
+}
+.ana-contenedor .caja3 {
+  display: grid;
+  grid-column: 3/5;
+  grid-row: 2/3;
+  justify-content: center;
+  align-items: center;
+}
 .ana-contenedor .caja5 {
   display: grid;
   grid-column: 1/3;
@@ -343,16 +343,16 @@ footer .footer-btn:hover {
   box-shadow: 0 0 5px black;
   border-radius: 15px;
 }
-.ana-contenedor .caja5 .nombre-arhuro {
+.ana-contenedor .caja5 .nombre-arhuro, .ana-contenedor .caja5 .datos-arhuro {
   text-align: center;
-}
-.ana-contenedor .caja5 .nombre-arhuro h2 {
-  font-size: 4rem;
   font-family: "Bebas Neue", cursive;
   color: white;
 }
+.ana-contenedor .caja5 .nombre-arhuro h2, .ana-contenedor .caja5 .datos-arhuro h2 {
+  font-size: 4rem;
+}
 .ana-contenedor .caja5 .datos-arhuro {
-  text-align: center;
+  font-size: 1.3rem;
 }
 .ana-contenedor .caja6 {
   display: grid;
@@ -371,16 +371,16 @@ footer .footer-btn:hover {
   box-shadow: 0 0 5px black;
   border-radius: 15px;
 }
-.ana-contenedor .caja8 .nombre-amis {
+.ana-contenedor .caja8 .nombre-amis, .ana-contenedor .caja8 .datos-amis {
   text-align: center;
-}
-.ana-contenedor .caja8 .nombre-amis h2 {
-  font-size: 4rem;
   font-family: "Bebas Neue", cursive;
   color: white;
 }
+.ana-contenedor .caja8 .nombre-amis h2, .ana-contenedor .caja8 .datos-amis h2 {
+  font-size: 4rem;
+}
 .ana-contenedor .caja8 .datos-amis {
-  text-align: center;
+  font-size: 1.3rem;
 }
 .ana-contenedor .caja9 {
   display: grid;
@@ -399,16 +399,16 @@ footer .footer-btn:hover {
   box-shadow: 0 0 5px black;
   border-radius: 15px;
 }
-.ana-contenedor .caja11 .nombre-suga {
+.ana-contenedor .caja11 .nombre-suga, .ana-contenedor .caja11 .datos-suga {
   text-align: center;
-}
-.ana-contenedor .caja11 .nombre-suga h2 {
-  font-size: 4rem;
   font-family: "Bebas Neue", cursive;
   color: white;
 }
+.ana-contenedor .caja11 .nombre-suga h2, .ana-contenedor .caja11 .datos-suga h2 {
+  font-size: 4rem;
+}
 .ana-contenedor .caja11 .datos-suga {
-  text-align: center;
+  font-size: 1.3rem;
 }
 .ana-contenedor .caja12 {
   display: grid;
@@ -451,7 +451,6 @@ footer .footer-btn:hover {
   box-shadow: 0 0 14px black;
   border-radius: 15px;
   padding: 10px;
-  overflow-x: scroll;
 }
 .galeria-main .galeria-evento1-cont .galeria-evento1-p {
   text-align: center;
@@ -503,7 +502,7 @@ footer .footer-btn:hover {
   color: white;
   font-size: 3vw;
 }
-.calendario-main-cont .calendario-evento-cont .calendario-evento-cont img {
+.calendario-main-cont .calendario-evento-cont h2 img {
   width: 400px;
 }
 .calendario-main-cont .calendario-evento-cont .calendario-redes-cont {
@@ -518,6 +517,24 @@ footer .footer-btn:hover {
 .calendario-main-cont .calendario-evento-cont .calendario-redes-cont a {
   color: black;
   font-size: 5vw;
+}
+.calendario-main-cont .calendario-evento-cont .calendario-redes-cont .ig-i {
+  transition: all 0.3s;
+}
+.calendario-main-cont .calendario-evento-cont .calendario-redes-cont .ig-i:hover {
+  color: rgb(130, 58, 180);
+}
+.calendario-main-cont .calendario-evento-cont .calendario-redes-cont .fb-i {
+  transition: all 0.3s;
+}
+.calendario-main-cont .calendario-evento-cont .calendario-redes-cont .fb-i:hover {
+  color: rgb(59, 89, 152);
+}
+.calendario-main-cont .calendario-evento-cont .calendario-redes-cont .map-i {
+  transition: all 0.3s;
+}
+.calendario-main-cont .calendario-evento-cont .calendario-redes-cont .map-i:hover {
+  color: rgb(0, 140, 0);
 }
 
 @media screen and (max-width: 767px) {
@@ -597,6 +614,23 @@ footer .footer-btn:hover {
 
 .contacto-form-cont .contacto-email-num-cont input {
   width: 48%;
+}
+.contacto-form-cont .contacto-enviar a {
+  text-decoration: none;
+  color: black;
+  font-size: 3.2vw;
+  font-family: "Bebas Neue", cursive;
+  margin: 15px 0;
+  padding: 3px 14px 0 14px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  transition: all 0.5s;
+  margin: 5px 0 15px 0;
+}
+.contacto-form-cont .contacto-enviar a:hover {
+  box-shadow: 0 0 10px white;
+  background-color: red;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
