@@ -1,14 +1,22 @@
 .contacto-main {
 
     .contacto-titulo {
-        margin-top: 25px;
-        padding-bottom: 8px;
-        box-shadow: 0 4px white;
-        color: white;
-        font-size: 5rem;
-        text-align: center;
-        border-radius: 15px;
-        font-family: 'Bebas Neue', cursive;
+        @include page-titulo;
+        // margin-top: 25px;
+        // padding-bottom: 8px;
+        // box-shadow: 0 4px white;
+        // color: white;
+        // font-size: 5rem;
+        // text-align: center;
+        // border-radius: 15px;
+        // font-family: $font;
+    }
+
+    @media screen and (max-width: 767px) {
+        .contacto-titulo {
+            font-size: 3rem;
+        }
+        
     }
 
     .contacto-redes-cont {

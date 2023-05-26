@@ -3,13 +3,21 @@
     margin: 0 auto;
 
     .calendario-titulo { 
-        /* padding: 5px; */
-        margin-top: 25px;
-        box-shadow: 0 4px white;
-        color: white;
-        font-size: 5vw;
-        text-align: center;
-        border-radius: 15px;
+        @include page-titulo;
+        // /* padding: 5px; */
+        // margin-top: 25px;
+        // box-shadow: 0 4px white;
+        // color: white;
+        // font-size: 6vw;
+        // font-family: $font;
+        // text-align: center;
+        // border-radius: 15px;
+    }
+
+    @media screen and (max-width: 767px) {
+        .calendario-titulo {
+            font-size: 3rem;
+        }
     }
 
     .calendario-evento-cont {

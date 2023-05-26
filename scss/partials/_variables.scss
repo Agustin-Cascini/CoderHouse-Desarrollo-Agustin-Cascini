@@ -5,7 +5,6 @@ $font-footer: Arial, Helvetica, sans-serif;
 
 
 
-
 // Colores -->
 
 $area-current: white;
@@ -20,8 +19,20 @@ $colores: (
 
 
 
-
 //MIXIN 
+
+@mixin page-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font;
+    color: white;
+    font-size: 5rem;
+    box-shadow: 0 4px white;
+    border-radius: 15px;
+    margin: 25px 0 50px;
+}
+
 
 @mixin btn-ana {
     text-decoration: none;
@@ -34,6 +45,7 @@ $colores: (
     box-shadow: 0 0 10px black;
     transition: all 0.5s;
 }
+
 
 @mixin btn-ana-hover {
     box-shadow: 0 0 10px white;

@@ -4,35 +4,43 @@ main {
 }
 
 
-.ana-titulo {
-    margin: 0 auto;
+.ana-titulo-cont {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 9vw;
+    align-items: center; 
 
-    h1 {   
-        text-align: center;
-        font-family: 'Bebas Neue', cursive;
-        color: white;
-        font-size: 6vw;
-        box-shadow: 0 4px white;
-        border-radius: 15px;       
-    }
-
-    @media screen and (max-width: 767px) {
-        h1 {
-            font-size: 8vw;
-        }            
-    }
-}
-
-@media screen and (max-width: 767px) {
     .ana-titulo {
-        height: 20vw;
+        @include page-titulo;
+        width: 80%;
+        // margin: 0 auto;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // width: 70%;
+        // height: 9vw;
+    
+        // h1 {   
+        //     text-align: center;
+        //     font-family: $font;
+        //     color: white;
+        //     font-size: 6vw;
+        //     box-shadow: 0 4px white;
+        //     border-radius: 15px;       
+        // }
+    }
+
+    @media screen and (max-width: 991px) {
+        .ana-titulo {
+            font-size: 3rem;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .ana-titulo {
+            font-size: 2.5rem;
+        }
     }
 }
+
 
 
 

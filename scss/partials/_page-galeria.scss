@@ -1,14 +1,22 @@
 .galeria-main {
     h1 {
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        font-size: 5.5vw;
-        color: white;
-        box-shadow: 0 4px white;
-        border-radius: 15px;
-        margin-top: 3vw;
-        margin-bottom: 5vw;
-        padding: 6px 0;
+        @include page-titulo;
+        // font-family: 'Bebas Neue', cursive;
+        // text-align: center;
+        // font-size: 5.5vw;
+        // color: white;
+        // box-shadow: 0 4px white;
+        // border-radius: 15px;
+        // margin-top: 3vw;
+        // margin-bottom: 5vw;
+        // padding: 6px 0;
+    }
+
+    @media screen and (max-width: 767px) {
+        h1 {
+            font-size: 3rem;
+        }
+        
     }
 
     .galeria-evento1-cont {
