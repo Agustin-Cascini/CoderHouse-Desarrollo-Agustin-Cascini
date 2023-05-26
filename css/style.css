@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(22, 22, 22);
 }
 
 hr {
@@ -239,6 +239,10 @@ footer .footer-btn:hover {
     font-size: 6vw;
   }
 }
+main {
+  margin-bottom: 45px;
+}
+
 .ana-titulo {
   margin: 0 auto;
   display: flex;
@@ -255,7 +259,17 @@ footer .footer-btn:hover {
   box-shadow: 0 4px white;
   border-radius: 15px;
 }
+@media screen and (max-width: 767px) {
+  .ana-titulo h1 {
+    font-size: 8vw;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .ana-titulo {
+    height: 20vw;
+  }
+}
 .ana-contenedor img {
   height: 100%;
   width: 100%;
@@ -274,8 +288,18 @@ footer .footer-btn:hover {
   padding: 0 5vw;
   grid-column: 1/6;
   grid-row: 1/2;
+  background-color: grey;
+  box-shadow: 0 10px 15px black;
+  border-radius: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem;
+  color: rgb(182, 182, 182);
   justify-content: center;
   align-items: center;
+}
+.ana-contenedor .ana-historia p {
+  padding: 15px;
+  margin: 0;
 }
 .ana-contenedor .caja-r {
   display: flex;
@@ -285,7 +309,7 @@ footer .footer-btn:hover {
 }
 .ana-contenedor .caja-r a {
   color: black;
-  font-size: 2.6rem;
+  font-size: 4rem;
 }
 .ana-contenedor .caja-r a .ig-i {
   transition: all 0.4s;
@@ -305,6 +329,11 @@ footer .footer-btn:hover {
 .ana-contenedor .caja-r a .fb-i:hover {
   color: rgb(59, 89, 152);
 }
+@media screen and (max-width: 767px) {
+  .ana-contenedor .caja-r a {
+    font-size: 3rem;
+  }
+}
 .ana-contenedor .caja2 {
   display: grid;
   grid-column: 1/3;
@@ -314,6 +343,7 @@ footer .footer-btn:hover {
   border: 2px solid black;
   box-shadow: 0 0 5px black;
   border-radius: 15px;
+  padding: 10px 20px;
 }
 .ana-contenedor .caja2 .nombre-nico, .ana-contenedor .caja2 .datos-nico {
   text-align: center;
@@ -324,7 +354,12 @@ footer .footer-btn:hover {
   font-size: 4rem;
 }
 .ana-contenedor .caja2 .datos-nico {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 767px) {
+  .ana-contenedor .caja2 .datos-nico {
+    font-size: 1.3rem;
+  }
 }
 .ana-contenedor .caja3 {
   display: grid;
@@ -342,6 +377,7 @@ footer .footer-btn:hover {
   border: 2px solid black;
   box-shadow: 0 0 5px black;
   border-radius: 15px;
+  padding: 10px 20px;
 }
 .ana-contenedor .caja5 .nombre-arhuro, .ana-contenedor .caja5 .datos-arhuro {
   text-align: center;
@@ -352,7 +388,12 @@ footer .footer-btn:hover {
   font-size: 4rem;
 }
 .ana-contenedor .caja5 .datos-arhuro {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 767px) {
+  .ana-contenedor .caja5 .datos-arhuro {
+    font-size: 1.3rem;
+  }
 }
 .ana-contenedor .caja6 {
   display: grid;
@@ -370,6 +411,7 @@ footer .footer-btn:hover {
   border: 2px solid black;
   box-shadow: 0 0 5px black;
   border-radius: 15px;
+  padding: 10px 20px;
 }
 .ana-contenedor .caja8 .nombre-amis, .ana-contenedor .caja8 .datos-amis {
   text-align: center;
@@ -380,7 +422,12 @@ footer .footer-btn:hover {
   font-size: 4rem;
 }
 .ana-contenedor .caja8 .datos-amis {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 767px) {
+  .ana-contenedor .caja8 .datos-amis {
+    font-size: 1.3rem;
+  }
 }
 .ana-contenedor .caja9 {
   display: grid;
@@ -398,6 +445,7 @@ footer .footer-btn:hover {
   border: 2px solid black;
   box-shadow: 0 0 5px black;
   border-radius: 15px;
+  padding: 10px 20px;
 }
 .ana-contenedor .caja11 .nombre-suga, .ana-contenedor .caja11 .datos-suga {
   text-align: center;
@@ -408,7 +456,12 @@ footer .footer-btn:hover {
   font-size: 4rem;
 }
 .ana-contenedor .caja11 .datos-suga {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 767px) {
+  .ana-contenedor .caja11 .datos-suga {
+    font-size: 1.3rem;
+  }
 }
 .ana-contenedor .caja12 {
   display: grid;
@@ -451,6 +504,8 @@ footer .footer-btn:hover {
   box-shadow: 0 0 14px black;
   border-radius: 15px;
   padding: 10px;
+  max-width: 1090px;
+  max-height: 900px;
 }
 .galeria-main .galeria-evento1-cont .galeria-evento1-p {
   text-align: center;
@@ -547,7 +602,7 @@ footer .footer-btn:hover {
   padding-bottom: 8px;
   box-shadow: 0 4px white;
   color: white;
-  font-size: 6vw;
+  font-size: 5rem;
   text-align: center;
   border-radius: 15px;
   font-family: "Bebas Neue", cursive;
@@ -561,11 +616,16 @@ footer .footer-btn:hover {
 .contacto-main .contacto-redes-cont p {
   color: rgb(180, 180, 180);
   font-family: Helvetica, sans-serif;
-  font-size: 1.3vw;
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .contacto-main .contacto-redes-cont p {
+    font-size: 15px;
+  }
 }
 .contacto-main .contacto-redes-cont .bi {
   color: black;
-  font-size: 6.5vw;
+  font-size: 78px;
   margin: 5px;
   transition: all 0.4s;
 }
@@ -605,7 +665,6 @@ footer .footer-btn:hover {
   .contacto-main .contacto-redes-cont .bi {
     text-align: center;
     margin-top: 30px;
-    font-size: 8vw;
   }
   .contacto-main .contacto-yt-cont {
     grid-column: 1/3;
@@ -625,6 +684,7 @@ footer .footer-btn:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px black;
   transition: all 0.5s;
+  font-size: 35px;
   margin: 5px 0 15px 0;
 }
 .contacto-form-cont .contacto-enviar a:hover {

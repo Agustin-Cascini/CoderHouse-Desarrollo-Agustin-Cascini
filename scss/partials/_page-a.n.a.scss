@@ -1,4 +1,8 @@
 // MAIN - TITULO
+main {
+    margin-bottom: 45px;
+}
+
 
 .ana-titulo {
     margin: 0 auto;
@@ -14,7 +18,19 @@
         color: white;
         font-size: 6vw;
         box-shadow: 0 4px white;
-        border-radius: 15px;
+        border-radius: 15px;       
+    }
+
+    @media screen and (max-width: 767px) {
+        h1 {
+            font-size: 8vw;
+        }            
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ana-titulo {
+        height: 20vw;
     }
 }
 
@@ -40,8 +56,19 @@
         padding: 0 5vw;
         grid-column: 1 / 6;
         grid-row: 1 / 2;
+        background-color: grey;
+        box-shadow: 0 10px 15px black;
+        border-radius: 15px;
+        font-family: $font;
+        font-size: 1.6rem;
+        color: rgb(182, 182, 182);
         justify-content: center;
         align-items: center;
+
+        p {
+            padding: 15px;
+            margin: 0;
+        }
     }
 
     // Aca empiezan los div del grid
@@ -55,7 +82,7 @@
 
         a {
             color: black;
-            font-size: 2.6rem;
+            font-size: 4rem;
 
             .ig-i {
                 transition: all 0.4s;
@@ -70,6 +97,12 @@
             }
             .fb-i:hover {color: map-get($colores, fb);}
         }
+
+        @media screen and (max-width: 767px) {
+            a {
+                font-size: 3rem;
+            }
+        }
        
     }
 
@@ -83,6 +116,7 @@
         border: 2px solid black;
         box-shadow: 0 0 5px black;
         border-radius: 15px;
+        padding: 10px 20px;
 
         .nombre-nico {
             text-align: center;
@@ -96,8 +130,15 @@
 
         .datos-nico {
             @extend .nombre-nico;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
         }
+
+        @media screen and (max-width: 767px) {
+            .datos-nico {
+                font-size: 1.3rem;
+            }
+        }
+
     }
 
     // Nico Carrusel
@@ -121,6 +162,7 @@
         border: 2px solid black;
         box-shadow: 0 0 5px black;
         border-radius: 15px;
+        padding: 10px 20px;
 
         .nombre-arhuro {
             text-align: center;
@@ -134,7 +176,12 @@
 
         .datos-arhuro {
             @extend .nombre-arhuro ;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
+        }
+        @media screen and (max-width: 767px) {
+            .datos-arhuro {
+                font-size: 1.3rem;
+            }
         }
     }
 
@@ -159,11 +206,12 @@
         border: 2px solid black;
         box-shadow: 0 0 5px black;
         border-radius: 15px;
+        padding: 10px 20px;
 
         .nombre-amis {
             text-align: center;
             font-family: 'Bebas Neue', cursive;
-                color: white;
+            color: white;
 
             h2 {
                 font-size: 4rem;                
@@ -172,7 +220,13 @@
 
         .datos-amis {
             @extend .nombre-amis;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
+        }
+
+        @media screen and (max-width: 767px) {
+            .datos-amis {
+                font-size: 1.3rem;
+            }
         }
     }
 
@@ -197,11 +251,12 @@
         border: 2px solid black;
         box-shadow: 0 0 5px black;
         border-radius: 15px;
+        padding: 10px 20px;
 
         .nombre-suga {
             text-align: center;
             font-family: 'Bebas Neue', cursive;
-                color: white;
+            color: white;
 
             h2 {
                 font-size: 4rem;               
@@ -210,7 +265,13 @@
 
         .datos-suga {
             @extend .nombre-suga;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
+        }
+
+        @media screen and (max-width: 767px) {
+            .datos-suga {
+                font-size: 1.3rem;
+            }
         }
     }
 

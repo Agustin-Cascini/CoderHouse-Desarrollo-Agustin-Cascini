@@ -5,7 +5,7 @@
         padding-bottom: 8px;
         box-shadow: 0 4px white;
         color: white;
-        font-size: 6vw;
+        font-size: 5rem;
         text-align: center;
         border-radius: 15px;
         font-family: 'Bebas Neue', cursive;
@@ -20,12 +20,18 @@
         p {
             color: rgb(180, 180, 180);
             font-family: Helvetica, sans-serif;
-            font-size: 1.3vw;
+            font-size: 18px;
+        }
+
+        @media screen and (max-width: 767px) {
+            p {
+                font-size: 15px;
+            }
         }
 
         .bi {
             color: black;
-            font-size: 6.5vw;
+            font-size: 78px;
             margin: 5px;
             transition: all 0.4s;
         }
@@ -62,7 +68,7 @@
         .contacto-redes-cont .bi {
             text-align: center;
             margin-top: 30px;
-            font-size: 8vw;
+            // font-size: 60px;
         }
 
         .contacto-yt-cont {
@@ -83,7 +89,8 @@
     .contacto-enviar {
 
         a {
-            @include btn-ana; 
+            @include btn-ana;
+            font-size: 35px;
             margin: 5px 0 15px 0;
         }
 
